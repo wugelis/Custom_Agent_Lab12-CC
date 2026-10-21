@@ -7,7 +7,7 @@
 車型有轎車 Car、休旅車 SUV、貨車 Truck、跑車 SportsCar、電動車 ElectricCar 等等可供選擇。
 
 ## 租金費用
-Car 1000 元/天、SUV 1500 元/天、Truck 2000 元/天、SportsCar 3000 元/天、ElectricCar 2800 元/天
+Car 1000 元/天、SUV 1500 元/天、Truck 2000 元/天、SportsCar 3000 元/天、ElectricCar 2800 元/天。
 
 ## UI 車輛租用系統 UI 設計
 這個車輛租用系統 UI 使用 ASP.NET Core 10 的 MVC 來設計，使用 Bootstrap 5.1 來設計 UI 的 RWD 介面，同時建立 Controller，並在 Controller 中呼叫 Application Services 提供的 CQRS 的 Command 的相關方法來完成帳號 Account or Customer 以及租用車輛畫面的 View 檢視表 cshtml，並能夠以這些 View 完成註冊 與 車輛租用等動作。
